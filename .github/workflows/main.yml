@@ -3,14 +3,14 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - master
+      - main
 
   # schedule:
   #   - cron: '0 0 0 * *' # Uncomment to schedule the workflow
 
   pull_request:
     branches:
-      - master
+      - main
     types:
       - closed
 
