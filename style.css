@@ -51,13 +51,15 @@ body {
   padding: 4rem 2rem;
   max-width: 1000px;
   margin: auto;
+
 }
 .section h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 2rem;
   color: #333;
   background: linear-gradient( to right,#e2d1c3 ,#374a5a);
+  border-radius: 8px;
   padding: 10px 20px;
 }
 .section p {
